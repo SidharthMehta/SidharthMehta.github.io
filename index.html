@@ -151,126 +151,24 @@ layout: default
     <h2 class="heading">Projects</h2>
     <div class="container">
         <div class="row">
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/project.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Speed optimization of Linux based Embedded Systems</h3>
-                    <p>
-                        Increased speed of a Spherical Geometry calculation code by 4.95 times against a goal of 3.7
-                        times on a Cortex-A72 processor. The code uses trigonometric methods for calculations. Used perf
-                        tool to generate profiling information.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+            {% for project in site.data.content.projects %}
 
             <div class="project shadow-large">
                 <div class="project-image">
-                    <img src="images/llvm.jpg" />
+                    <img src="{{ project.image }}" />
                 </div>
                 <!-- End .project-image -->
                 <div class="project-info">
-                    <h3>C-- Bitcode generator</h3>
-                    <p>
-                        Implemented C-- a subset of C programming language using parser generators Flex & Bison to
-                        generate code in LLVM IR.
-                    </p>
-                    <a href="#">View Project</a>
+                    <h3>{{ project.name }}</h3>
+                    <p>{{ project.info }}</p>
+                    {% if project.url and project.url != '' %}
+                    <a href="{{ project.url }}">View Project</a>
+                    {% endif %}
                 </div>
                 <!-- End .project-info -->
             </div>
             <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/braille.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Braille reader</h3>
-                    <p>
-                        Fabricated a device to convert text feed from a computer into braille text on a physical device.
-                        The device uses 2 motors to control braille characters mounted on a wheel to change characters.
-                    </p>
-                    <a href="https://github.com/SidharthMehta/Braille-Display">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/project.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>USB Touch Keyboard</h3>
-                    <p>
-                        Implemented a USB Keyboard using FRDM KL25Z development board. The code uses HID protocol of the
-                        USB stack to communicate with host device.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/project.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Memory size optimization of Embedded Systems</h3>
-                    <p>
-                        Reduced the amount of memory needed for an RTOS-based application on Cortex-M based processor.
-                        Reduction of RAM and ROM by 2348 bytes and 3000 bytes, respectively.
-                    </p>
-                    <a href="#">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/cache.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Cache Simulator</h3>
-                    <p>
-                        Project Implements a flexible cache and memory hierarchy simulator and uses it to study the
-                        performance of memory hierarchies using the SPEC benchmarks.
-                    </p>
-                    <a href="https://github.com/SidharthMehta/Cache-Simulator">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
-
-            <div class="project shadow-large">
-                <div class="project-image">
-                    <img src="images/tanh.jpg" />
-                </div>
-                <!-- End .project-image -->
-                <div class="project-info">
-                    <h3>Tanh Unit for LSTM cell</h3>
-                    <p>
-                        Designed and Synthesized a Tanh gate for LSTM cell, a type of neural network using RTL. The goal
-                        of project was to achieve least area and execution time product. Stood 4th in class out of 120
-                        students.
-                    </p>
-                    <a href="https://github.com/SidharthMehta/Tanh-unit">View Project</a>
-                </div>
-                <!-- End .project-info -->
-            </div>
-            <!-- End .project -->
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -279,25 +177,9 @@ layout: default
 <div id="skills">
     <h2 class="heading">Skills</h2>
     <ul>
-        <li>C</li>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Real-Time Operating Systems</li>
-        <li>Verilog</li>
-        <li>Cortex-M</li>
-        <li>Raspberry Pi</li>
-        <li>Linux</li>
-        <li>Logic analyzer</li>
-        <li>USB protocol</li>
-        <li>SPI</li>
-        <li>I2C</li>
-        <li>UART</li>
-        <li>Debugging</li>
-        <li>LLVM</li>
-        <li>Perf</li>
-        <li>Ghidra</li>
-        <li>Assembly</li>
-        <li>LLVM</li>
+        {% for skill in site.data.content.skills %}
+        <li>{{skill}}</li>
+        {% endfor %}
     </ul>
 </div>
 <!-- End #skills -->

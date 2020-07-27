@@ -1,0 +1,67 @@
+{
+    "skills": [
+        "C",
+        "C#",
+        "C++",
+        "Real-Time Operating Systems",
+        "Verilog",
+        "Cortex-M",
+        "Raspberry Pi",
+        "Linux",
+        "Logic analyzer",
+        "USB protocol",
+        "SPI",
+        "I2C",
+        "UART",
+        "Debugging",
+        "LLVM",
+        "Perf",
+        "Ghidra",
+        "Assembly",
+        "LLVM"
+    ],
+    "projects": [
+        {
+            "name": "Speed optimization of Linux based Embedded Systems",
+            "image": "images/project.jpg",
+            "info": "Increased speed of a Spherical Geometry calculation code by 4.95 times against a goal of 3.7 times on a Cortex-A72 processor. The code uses trigonometric methods for calculations. Used perf tool to generate profiling information.",
+            "url": ""
+        },
+        {
+            "name": "C-- Bitcode generator",
+            "image": "images/llvm.jpg",
+            "info": "Implemented C-- a subset of C programming language using parser generators Flex & Bison to generate code in LLVM IR.",
+            "url": ""
+        },
+        {
+            "name": "Braille reader",
+            "image": "images/braille.jpg",
+            "info": "Fabricated a device to convert text feed from a computer into braille text on a physical device. The device uses 2 motors to control braille characters mounted on a wheel to change characters.",
+            "url": "https://github.com/SidharthMehta/Braille-Display"
+        },
+        {
+            "name": "USB Touch Keyboard",
+            "image": "images/project.jpg",
+            "info": "Implemented a USB Keyboard using FRDM KL25Z development board. The code uses HID protocol of the USB stack to communicate with host device.",
+            "url": ""
+        },
+        {
+            "name": "Memory size optimization of Embedded Systems",
+            "image": "images/project.jpg",
+            "info": "Reduced the amount of memory needed for an RTOS-based application on Cortex-M based processor. Reduction of RAM and ROM by 2348 bytes and 3000 bytes, respectively.",
+            "url": ""
+        },
+        {
+            "name": "Cache Simulator",
+            "image": "images/cache.jpg",
+            "info": "Project Implements a flexible cache and memory hierarchy simulator and uses it to study the performance of memory hierarchies using the SPEC benchmarks.",
+            "url": "https://github.com/SidharthMehta/Cache-Simulator"
+        },
+        {
+            "name": "Tanh Unit for LSTM cell",
+            "image": "images/tanh.jpg",
+            "info": "Designed and Synthesized a Tanh gate for LSTM cell, a type of neural network using RTL. The goal of project was to achieve least area and execution time product. Stood 4th in class out of 120 students.",
+            "url": "https://github.com/SidharthMehta/Tanh-unit"
+        }
+    ]
+}
