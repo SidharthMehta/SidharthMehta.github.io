@@ -58,37 +58,18 @@ layout: default
             <div class="col-md-4">
                 <h2 class="heading">About Me</h2>
             </div>
-            <div class="col-md-8">
-                <p>
-                    I am Graduate Computer Engineering student at North Carolina State University looking for
-                    positions in domain of Embedded Systems software.
+<div class="col-md-8" markdown="1">
+I am Graduate Computer Engineering student at North Carolina State University looking for positions in domain of Embedded Systems software.
 
-                    As part of my master's degree I have worked on the following:
-                <ol>
-                    <li>
-                        Preemptive scheduling using RTOS and Non preemptive scheduling by breaking tasks into Finite
-                        State Machines.
-                    </li>
-                    <li>
-                        Optimizing code on embedded systems for speed, responsiveness, memory and power.
-                    </li>
-                    <li>
-                        C++ based simulators for components of processor like cache, branch predictors and out of order
-                        processor pipeline.
-                    </li>
-                    <li>
-                        Best practices for design of ASICs with help of Verilog.
-                    </li>
-                    <li>
-                        Understanding how compilers perform optimization and enabling compiler to produce efficient
-                        object code.
-                    </li>
-                    <li>
-                        Optimization of code on Linux based embedded systems with help of SIMD instructions.
-                    </li>
-                </ol>
-                </p>
-            </div>
+As part of my master's degree I have worked on the following:
+1. Preemptive scheduling using RTOS and Non preemptive scheduling by breaking tasks into Finite State Machines.
+1. Optimizing code on embedded systems for speed, responsiveness, memory and power.
+1. C++ based simulators for components of processor like cache, branch predictors and out of order processor pipeline.
+1. Best practices for design of ASICs with help of Verilog.
+1. Understanding how compilers perform optimization and enabling compiler to produce efficient object code.
+1. Optimization of code on Linux based embedded systems with help of SIMD instructions.
+1. Implementing serial communication protocols such as I2C, SPI, USB and UART.
+</div>
         </div>
     </div>
 </div>
@@ -137,11 +118,6 @@ layout: default
         <h3>YMCA University of Science and Technology</h3>
         <span class="education-date">August 2014 - June 2018</span>
         <h4>Bachelor of Technology in Electronics and Communication Engineering</h4>
-        <ul>
-            <li>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-        </ul>
     </div>
     <!-- End .education-block -->
 </div>
@@ -187,7 +163,7 @@ layout: default
 <div id="contact">
     <h2>Get in Touch</h2>
     <div id="contact-form">
-        <form method="POST" action="https://formspree.io/email@email.com">
+        <form method="POST" action="https://formspree.io/sidharthmehta@outlook.com">
             <input type="hidden" name="_subject" value="Contact request from personal website" />
             <input type="email" name="_replyto" placeholder="Your email" required>
             <textarea name="message" placeholder="Your message" required></textarea>
@@ -203,7 +179,7 @@ layout: default
         <div class="row">
             <div class="col-sm-5 copyright">
                 <p>
-                    Copyright &copy; 2020 YOUR NAME
+                    2020 Sidharth Mehta
                 </p>
             </div>
             <div class="col-sm-2 top">
@@ -214,28 +190,15 @@ layout: default
             <div class="col-sm-5 social">
                 <ul>
                     <li>
-                        <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                        <a href="https://github.com/SidharthMehta" target="_blank"><i class="fa fa-github"
                                 aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                        <a href="https://www.linkedin.com/in/sidharthmehta1996/" target="_blank"><i class="fa fa-linkedin"
                                 aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
-                                aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
-                                aria-hidden="true"></i></a>
+                        <a href="mailto:sidharthmehta@outlook.com" target="_blank"> <i class="fa fa-envelope" aria-hidden="true"></i> </a>
                     </li>
                 </ul>
             </div>

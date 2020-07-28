@@ -49,8 +49,8 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #242a36;
+$text: #41464b;
 
 /*
     ---------------------
@@ -302,6 +302,7 @@ footer {
     padding: 15px 25px;
     border: 3px solid #fff;
     border-radius: 30px;
+    background: rgba($base-color-hover, 0.5);
     @include transition();
 
     &:hover {
@@ -382,7 +383,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: lighten($base-color, 50%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -397,7 +398,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: rgba($base-color-hover, 0.5);
     z-index: 1;
 }
 
@@ -460,6 +461,13 @@ footer {
     p {
         color: $text;
         margin: 0;
+        text-align: justify;
+        margin-block-end: 1em;
+    }
+
+    li {
+        color: $text;
+        text-align: justify;
     }
 }
 
@@ -534,8 +542,14 @@ footer {
 
     p {
         color: $text;
-        font-size: 0.9em;
+        font-size: 1em;
         margin: 0;
+    }
+
+    li {
+        color: $text;
+        font-size: 1em;
+        text-align: left;
     }
 }
 
@@ -674,8 +688,9 @@ footer {
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
-        font-size: 0.9em;
+        margin: 15px 15px 15px 15px;
+        font-size: 1em;
+        text-align: justify;
     }
 }
 
