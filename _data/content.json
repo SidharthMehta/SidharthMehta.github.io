@@ -28,22 +28,28 @@
             "url": ""
         },
         {
-            "name": "C-- Bitcode generator",
-            "image": "images/llvm.jpg",
-            "info": "Implemented C-- a subset of C programming language using parser generators Flex & Bison to generate code in LLVM IR.",
+            "name": "Touchscreen control of LED brightness using RTOS",
+            "image": "images/project.jpg",
+            "info": "The project shares access of ADC between 2 tasks: 1. To get touch input from touchscreen by computing voltage across voltage dividers. 2. Measurement of current flowing through a HBLED in a time critical manner. The current is regulated using a buck converter.",
             "url": ""
         },
         {
-            "name": "Braille reader",
-            "image": "images/braille.jpg",
-            "info": "Fabricated a device to convert text feed from a computer into braille text on a physical device. The device uses 2 motors to control braille characters mounted on a wheel to change characters.",
-            "url": "https://github.com/SidharthMehta/Braille-Display"
+            "name": "Motion detector program using non preemptive scheduling",
+            "image": "images/project.jpg",
+            "info": "Improved responsiveness of a motion detector program using non preemptive scheduling. The program reads data from an accelerometer over I2C and blinks an RGB led to indicate motion.",
+            "url": ""
+        },
+        {
+            "name": "C-- Bitcode generator",
+            "image": "images/llvm.png",
+            "info": "Implemented C-- a subset of C programming language using parser generators Flex & Bison to generate code in LLVM IR.",
+            "url": ""
         },
         {
             "name": "USB Touch Keyboard",
             "image": "images/project.jpg",
             "info": "Implemented a USB Keyboard using FRDM KL25Z development board. The code uses HID protocol of the USB stack to communicate with host device.",
-            "url": ""
+            "url": "https://github.com/SidharthMehta/USB-keyboard"
         },
         {
             "name": "Memory size optimization of Embedded Systems",
@@ -52,16 +58,40 @@
             "url": ""
         },
         {
+            "name": "Speed optimization of Embedded System",
+            "image": "images/project.jpg",
+            "info": "Achieved 4.3x improvement in execution speed of a program which decodes and displays on the LCD all JPEG images in the root directory of a uSD card.",
+            "url": ""
+        },
+        {
             "name": "Cache Simulator",
-            "image": "images/cache.jpg",
+            "image": "images/cache.png",
             "info": "Project Implements a flexible cache and memory hierarchy simulator and uses it to study the performance of memory hierarchies using the SPEC benchmarks.",
             "url": "https://github.com/SidharthMehta/Cache-Simulator"
         },
         {
+            "name": "Branch prediction simulator",
+            "image": "images/bpb.png",
+            "info": "Designed a branch predictor simulator and use it to design branch predictors (bi-modal, gShare, hybrid) with Branch Target buffer well suited to the SPECint95 benchmarks.",
+            "url": "https://github.com/SidharthMehta/Branch-Predicton-Simulator"
+        },
+        {
+            "name": "Dynamic Instruction Scheduling Simulator",
+            "image": "images/Tomasulo algorithm.jpg",
+            "info": "Constructed a simulator for an out-of-order superscalar processor based on Tomasulo’s algorithm that fetches, dispatches, and issues N instructions per cycle.",
+            "url": "https://github.com/SidharthMehta/Dynamic-Instruction-Scheduling-Simulator"
+        },
+        {
             "name": "Tanh Unit for LSTM cell",
             "image": "images/tanh.jpg",
-            "info": "Designed and Synthesized a Tanh gate for LSTM cell, a type of neural network using RTL. The goal of project was to achieve least area and execution time product. Stood 4th in class out of 120 students.",
+            "info": "Designed and Synthesized a Tanh gate for LSTM cell, a type of neural network using RTL. The output of g(t) is 𝑡𝑎𝑛ℎ(Σ(𝑊𝑔∗𝑥𝑖)), where 𝑊𝑔 is a weight matrix and 𝑥𝑖 is an input vector. The goal of project was to achieve least area and execution time product.",
             "url": "https://github.com/SidharthMehta/Tanh-unit"
+        },
+        {
+            "name": "Braille reader",
+            "image": "images/braille.png",
+            "info": "Fabricated a device to convert text feed from a computer into braille text on a physical device. The device uses 2 motors to control braille characters mounted on a wheel to change characters.",
+            "url": "./Braille display report.pdf"
         }
     ]
 }

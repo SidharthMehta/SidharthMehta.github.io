@@ -59,7 +59,7 @@ layout: default
                 <h2 class="heading">About Me</h2>
             </div>
 <div class="col-md-8" markdown="1">
-I am Graduate Computer Engineering student at North Carolina State University looking for positions in domain of Embedded Systems software.
+I am Graduate Computer Engineering student at North Carolina State University looking for positions in domain of Embedded Systems and Software development.
 
 As part of my master's degree I have worked on the following:
 1. Preemptive scheduling using RTOS and Non preemptive scheduling by breaking tasks into Finite State Machines.
@@ -79,22 +79,15 @@ As part of my master's degree I have worked on the following:
     <h2 class="heading">Experience</h2>
     <div id="experience-timeline">
         <div data-date="June 2017 – November 2017">
-            <h3>EMTECH FOUNDATION</h3>
-            <h4>Embedded systems Intern</h4>
-            <p>
-                Responsibilities:
-            <ul>
-                <li>
-                    Prototyping hardware and software for customer products.
-                </li>
-                <li>
-                    Mentor students undergoing embedded systems training at EMTECH Foundation.
-                </li>
-                <li>
-                    Assisting training of WorldSkills 2017 Embedded Systems candidate from India.
-                </li>
-            </ul>
-            </p>
+<div markdown="1">
+### EMTECH Foundation
+#### Embedded systems Intern
+EMTECH Foundation is an embedded systems training and consultancy company. As part of my internship I undertook the following responsibilities:
+* Schematic and PCB design for various projects using Altium designer.
+* Writing firmware for projects based on PIC and STM32 microcontroller.
+* Proof-reading and quality maintenance of technical documents.
+* Assisting students undergoing embedded systems training at EMTECH Foundation.
+</div>
         </div>
     </div>
 </div>
@@ -108,8 +101,7 @@ As part of my master's degree I have worked on the following:
         <h4>Masters of Science in Computer Engineering</h4>
         <p>
             <b>Coursework: </b>
-            Real Time Embedded System, Embedded System Optimization, Embedded Linux, Compilers, Microprocessor
-            Architecture, ASIC and FPGA design with Verilog
+            Real Time Embedded System, Embedded System Optimization, Embedded Linux, Compilers, Microprocessor Architecture, ASIC and FPGA design with Verilog
         </p>
     </div>
     <!-- End .education-block -->
