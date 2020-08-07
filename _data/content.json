@@ -23,14 +23,14 @@
     "projects": [
         {
             "name": "Speed optimization of Linux based Embedded Systems",
-            "image": "images/project.jpg",
-            "info": "Increased speed of a Spherical Geometry calculation code by 4.95 times against a goal of 3.7 times on a Cortex-A72 processor. The code uses trigonometric methods for calculations. Used perf tool to generate profiling information.",
-            "url": ""
+            "image": "images/perf.png",
+            "info": "Increased execution speed of a Spherical Geometry calculation code by 4.95 times against a goal of 3.7 times on a Cortex-A72 processor. The code uses trigonometric functions to calculate distance and bearing angle between points. Used perf tool to generate profiling information for code and applied appropriate optimizations.",
+            "url": "./documents/speed-optimization-linux.pdf"
         },
         {
             "name": "Touchscreen control of LED brightness using RTOS",
             "image": "images/project.jpg",
-            "info": "The project shares access of ADC between 2 tasks: 1. To get touch input from touchscreen by computing voltage across voltage dividers. 2. Measurement of current flowing through a HBLED in a time critical manner. The current is regulated using a buck converter.",
+            "info": "Shared access of ADC using Preemptive scheduling to get touch input from touchscreen and current measurement from buck converter in a time critical manner. Project also involved displaying current plot on the LCD.",
             "url": ""
         },
         {
@@ -91,7 +91,7 @@
             "name": "Braille reader",
             "image": "images/braille.png",
             "info": "Fabricated a device to convert text feed from a computer into braille text on a physical device. The device uses 2 motors to control braille characters mounted on a wheel to change characters.",
-            "url": "./Braille display report.pdf"
+            "url": "./documents/braille-display-report.pdf"
         }
     ]
 }

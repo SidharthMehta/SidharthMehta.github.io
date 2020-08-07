@@ -37,7 +37,7 @@ layout: default
     <div id="lead-content">
         <h1>Sidharth Mehta</h1>
         <h2>Computer Engineer</h2>
-        <a href="./Sidharth Mehta.pdf" class="btn-rounded-white">Download Resume</a>
+        <a href="./documents/Sidharth Mehta.pdf" class="btn-rounded-white">Download Resume</a>
     </div>
     <!-- End #lead-content -->
 
