@@ -28,14 +28,20 @@
             "url": "./documents/speed-optimization-linux.pdf"
         },
         {
+            "name": "USB Touch Keyboard",
+            "image": "images/keyboard.gif",
+            "info": "Implemented a USB Mouse and Keyboard using FRDM KL25Z development board. The device registers keystrokes from a touchscreen and uses the onboard accelrometer to register motion for mouse support. The code uses HID protocol of the USB stack to communicate with host device.",
+            "url": "https://github.com/SidharthMehta/USB-keyboard"
+        },
+        {
             "name": "Touchscreen control of LED brightness using RTOS",
-            "image": "images/project.jpg",
+            "image": "images/ts-brightness.gif",
             "info": "Shared access of ADC using Preemptive scheduling to get touch input from touchscreen and current measurement from buck converter in a time critical manner. Project also involved displaying current plot on the LCD.",
             "url": ""
         },
         {
             "name": "Motion detector program using non preemptive scheduling",
-            "image": "images/project.jpg",
+            "image": "images/motion.gif",
             "info": "Improved responsiveness of a motion detector program using non preemptive scheduling. The program reads data from an accelerometer over I2C and blinks an RGB led to indicate motion.",
             "url": ""
         },
@@ -46,14 +52,8 @@
             "url": ""
         },
         {
-            "name": "USB Touch Keyboard",
-            "image": "images/project.jpg",
-            "info": "Implemented a USB Keyboard using FRDM KL25Z development board. The code uses HID protocol of the USB stack to communicate with host device.",
-            "url": "https://github.com/SidharthMehta/USB-keyboard"
-        },
-        {
             "name": "Memory size optimization of Embedded Systems",
-            "image": "images/project.jpg",
+            "image": "images/memory.png",
             "info": "Reduced the amount of memory needed for an RTOS-based application on Cortex-M based processor. Reduction of RAM and ROM by 2348 bytes and 3000 bytes, respectively.",
             "url": ""
         },
