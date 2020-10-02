@@ -101,7 +101,7 @@ EMTECH Foundation is an embedded systems training and consultancy company. As pa
         <h4>Masters of Science in Computer Engineering</h4>
         <p>
             <b>Coursework: </b>
-            Real Time Embedded System, Embedded System Optimization, Embedded Linux, Compilers, Microprocessor Architecture, ASIC and FPGA design with Verilog
+            Architecture of Parallel computers, Object Oriented Design and Development, Operating systems, Real Time Embedded System, Embedded System Optimization, Embedded Linux, Compilers, Microprocessor Architecture, ASIC and FPGA design with Verilog
         </p>
     </div>
     <!-- End .education-block -->
