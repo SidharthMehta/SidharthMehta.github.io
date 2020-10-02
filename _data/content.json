@@ -18,7 +18,10 @@
         "Perf",
         "Ghidra",
         "Assembly",
-        "LLVM"
+        "LLVM",
+        "Ruby on Rails",
+        "OpenMP",
+        "POSIX Pthreads"
     ],
     "projects": [
         {
@@ -46,6 +49,12 @@
             "url": ""
         },
         {
+            "name": "fork system call on XINU OS",
+            "image": "images/fork.png",
+            "info": "Implemented a fork system call similar to Unix’s fork on XINU. The fork primitive creates a new process (the child) by almost duplicating the parent process.",
+            "url": ""
+        },
+        {
             "name": "C-- Bitcode generator",
             "image": "images/llvm.png",
             "info": "Implemented C-- a subset of C programming language using parser generators Flex & Bison to generate code in LLVM IR.",
@@ -59,7 +68,7 @@
         },
         {
             "name": "Speed optimization of Embedded System",
-            "image": "images/project.jpg",
+            "image": "images/speedup.gif",
             "info": "Achieved 4.3x improvement in execution speed of a program which decodes and displays on the LCD all JPEG images in the root directory of a uSD card.",
             "url": ""
         },
