@@ -72,7 +72,6 @@ As part of my master's degree I have worked on the following:
 1. Basic concepts and mechanisms related to the design of modern operating systems (process creation, threads, scheduling, synchronization).
 1. Techniques to decompose and divide a program for parallel execution using OpenMP.
 </div>
-            <a href="./documents/Cover Letter.pdf">View Cover Letter</a>
         </div>
     </div>
 </div>
