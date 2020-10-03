@@ -37,7 +37,7 @@ layout: default
     <div id="lead-content">
         <h1>Sidharth Mehta</h1>
         <h2>Computer Engineer</h2>
-        <a href="./documents/Sidharth Mehta.pdf" class="btn-rounded-white">Download Resume</a>
+        <a href="./documents/Sidharth Mehta.pdf" class="btn-rounded-white">View Resume</a>
     </div>
     <!-- End #lead-content -->
 
@@ -69,7 +69,10 @@ As part of my master's degree I have worked on the following:
 1. Understanding how compilers perform optimization and enabling compiler to produce efficient object code.
 1. Optimization of code on Linux based embedded systems with help of SIMD instructions.
 1. Implementing serial communication protocols such as I2C, SPI, USB and UART.
+1. Basic concepts and mechanisms related to the design of modern operating systems (process creation, threads, scheduling, synchronization).
+1. Techniques to decompose and divide a program for parallel execution using OpenMP.
 </div>
+            <a href="./documents/Cover Letter.pdf">View Cover Letter</a>
         </div>
     </div>
 </div>
