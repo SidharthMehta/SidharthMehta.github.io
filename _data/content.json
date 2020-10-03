@@ -1,27 +1,69 @@
 {
     "skills": [
-        "C",
-        "C#",
-        "C++",
-        "Real-Time Operating Systems",
-        "Verilog",
-        "Cortex-M",
-        "Raspberry Pi",
-        "Linux",
-        "Logic analyzer",
-        "USB protocol",
-        "SPI",
-        "I2C",
-        "UART",
-        "Debugging",
-        "LLVM",
-        "Perf",
-        "Ghidra",
-        "Assembly",
-        "LLVM",
-        "Ruby on Rails",
-        "OpenMP",
-        "POSIX Pthreads"
+        {
+            "name": "Programming",
+            "keywords": [
+                "Assembly",
+                "C",
+                "C++",
+                "C#",
+                "Verilog",
+                "Shell scripting",
+                "C#",
+                "RTX5 RTOS",
+                "OpenMP",
+                "POSIX Pthreads",
+                "Ruby on Rails",
+                "RSpec",
+                "Lex",
+                "Yacc"
+            ]
+        },
+        {
+            "name": "Microcontroller",
+            "keywords": [
+                "Cortex-M",
+                "AVR",
+                "PIC",
+                "Raspberry Pi"
+            ]
+        },
+        {
+            "name": "Communication Protocols",
+            "keywords": [
+                "USB",
+                "SPI",
+                "I2C",
+                "UART"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "LLVM",
+                "XINU OS",
+                "WSL",
+                "Linux",
+                "Perf",
+                "Ghidra",
+                "GCC",
+                "GDB",
+                "GNU Make",
+                "Git"
+            ]
+        },
+        {
+            "name": "Other",
+            "keywords": [
+                "Circuit Designing",
+                "Logic analyzer",
+                "Oscilloscope",
+                "Code Optimization",
+                "Compiler Optimization",
+                "Circuit Debugging",
+                "Software Debugging"
+            ]
+        }
     ],
     "projects": [
         {

@@ -146,11 +146,14 @@ EMTECH Foundation is an embedded systems training and consultancy company. As pa
 
 <div id="skills">
     <h2 class="heading">Skills</h2>
-    <ul>
-        {% for skill in site.data.content.skills %}
-        <li>{{skill}}</li>
+    {% for skill in site.data.content.skills %}
+        <h3>{{ skill.name }}</h3>
+        <ul>
+        {% for item in skill.keywords %}
+            <li>{{ item }}</li>
         {% endfor %}
-    </ul>
+        </ul>
+    {% endfor %}
 </div>
 <!-- End #skills -->
 
